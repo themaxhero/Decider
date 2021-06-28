@@ -1,17 +1,4 @@
 defmodule Decider do
-  @moduledoc """
-  Documentation for `Decider`.
-  """
-
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Decider.hello()
-      :world
-
-  """
   def main(_args) do
     {:ok, content} = File.read("list.txt")
 
